@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp 
+          xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" 
+          xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" 
+          xsi:type="MailApp">
+
+  <Id>E546304F-826B-4F99-B8D2-9F67966BF273</Id>
+
+  <Version>1.2.0.0</Version>
+  <ProviderName>Dipisoft</ProviderName>
+  <DefaultLocale>fr-FR</DefaultLocale>
+  <DisplayName DefaultValue="OutlookImagesInfos"/>
+  <Description DefaultValue="Informations sur les images contenues dans un message"/>
+  <IconUrl DefaultValue="https://dipisoft.github.io/OutlookImagesInfos/Images/icone64.png"/>
+  <SupportUrl DefaultValue="https://www.dipisoft.com/"/>
+  
+  <Hosts>
+    <Host Name="Mailbox"/>
+  </Hosts>
+  <Requirements>
+    <Sets>
+      <Set Name="Mailbox" MinVersion="1.1"/>
+    </Sets>
+  </Requirements>
+  <FormSettings>
+    <Form xsi:type="ItemRead">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://dipisoft.github.io/OutlookImagesInfos/panneauLecture.html"/>
+        <RequestedHeight>250</RequestedHeight>
+      </DesktopSettings>
+    </Form>
+  </FormSettings>
+
+  <Permissions>ReadWriteItem</Permissions>
+  <Rule xsi:type="RuleCollection" Mode="Or">
+    <Rule xsi:type="ItemIs" ItemType="Message" FormType="Edit"/>
+  </Rule>
+  <DisableEntityHighlighting>false</DisableEntityHighlighting>
+
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="VersionOverridesV1_0">
+    <Requirements>
+      <bt:Sets DefaultMinVersion="1.3">
+        <bt:Set Name="Mailbox"/>
+      </bt:Sets>
+    </Requirements>
+    <Hosts>
+      <Host xsi:type="MailHost">
+        <DesktopFormFactor>
+          <ExtensionPoint xsi:type="MessageReadCommandSurface">
+            <OfficeTab id="TabDefault">
+              <Group id="msgReadGroup">
+                <Label resid="composant.Label"/>
+                <Control xsi:type="Button" id="msgReadOpenPaneButton">
+                  <Label resid="panneau.Label"/>
+                  <Supertip>
+                    <Title resid="panneau.SuperTipTitle"/>
+                    <Description resid="panneau.SuperTipDescription"/>
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="icone16"/>
+                    <bt:Image size="32" resid="icone32"/>
+                    <bt:Image size="64" resid="icone64"/>
+                    <bt:Image size="80" resid="icone80"/>
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <SourceLocation resid="panneauLecture.Url"/>
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+          <ExtensionPoint xsi:type="MessageComposeCommandSurface">
+            <OfficeTab id="TabDefault">
+              <Group id="msgComposeCmdGroup">
+                <Label resid="composant.Label"/>
+                <Control xsi:type="Button" id="msgComposeInsertGist">
+                  <Label resid="panneau.Label"/>
+                  <Supertip>
+                    <Title resid="panneau.SuperTipTitle"/>
+                    <Description resid="panneau.SuperTipDescription"/>
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="icone16"/>
+                    <bt:Image size="32" resid="icone32"/>
+                    <bt:Image size="64" resid="icone64"/>
+                    <bt:Image size="80" resid="icone80"/>
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <SourceLocation resid="panneauEdition.Url"/>
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+        </DesktopFormFactor>
+      </Host>
+    </Hosts>
+    <Resources>
+      <bt:Images>
+        <bt:Image id="icone16" DefaultValue="https://dipisoft.github.io/OutlookImagesInfos/Images/icone16.png"/>
+        <bt:Image id="icone32" DefaultValue="https://dipisoft.github.io/OutlookImagesInfos/Images/icone32.png"/>
+        <bt:Image id="icone64" DefaultValue="https://dipisoft.github.io/OutlookImagesInfos/Images/icone64.png"/>
+        <bt:Image id="icone80" DefaultValue="https://dipisoft.github.io/OutlookImagesInfos/Images/icone80.png"/>
+      </bt:Images>
+      <bt:Urls>
+        <bt:Url id="panneauLecture.Url" DefaultValue="https://dipisoft.github.io/OutlookImagesInfos/panneauLecture.html"/>
+        <bt:Url id="panneauEdition.Url" DefaultValue="https://dipisoft.github.io/OutlookImagesInfos/panneauEdition.html"/>
+      </bt:Urls>
+      <bt:ShortStrings>
+        <bt:String id="composant.Label" DefaultValue="ImageInfo"/>
+        <bt:String id="panneau.Label" DefaultValue="Afficher les informations"/>
+        <bt:String id="panneau.SuperTipTitle" DefaultValue="Affichage des informations sur les images contenues dans un message"/>
+      </bt:ShortStrings>
+      <bt:LongStrings>
+        <bt:String id="panneau.SuperTipDescription" DefaultValue="Ouvre un panneau avec les informations sur les images contenues dans un message, qu'elles y soient en tant que pièces-jointes, intégrées ou externes (via une url). Ceci afin de voir si leur résolution native est adaptée à celle d'affichage."/>
+      </bt:LongStrings>
+    </Resources>
+  </VersionOverrides>
+</OfficeApp>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body class="attente">
+		<div>
+			<h1>Images du message<img id="imgMaj" src="Images/actualiser.png" alt="Actualiser" onclick="location.reload()"></h1>
+			<div id="divListeImages" class="masque">
+				<table>
+					<thead>
+						<tr>
+							<th>Image</th>
+							<th>Résolut.<br />affichée</th>
+							<th>Résolut.<br />native</th>
+							<th>Poids</th>
+							<th>Type</th>
+						</tr>
+					</thead>
+					<tbody id="tbImages">
+					</tbody>
+				</table>
+				<div id="divIncertitudeRapprochement" class="masque">
+					<p>¹ Image présente dans le message mais les informations disponibles ne permettent pas de la rapprocher avec certitude de la résolution affichée.</p>
+				</div>
+			</div>
+			<div id="divAucuneImage" class="masque">
+				<p>Le corps du message ne contient aucune image.</p>
+			</div>
+			<div id="divErreur" class="masque">
+			</div>
+			<div id="divBravo" class="masque">
+				<h3>Conseil :</h3>
+				Vous n'avez visiblement pas besoin de conseil puisqu'aucune anomalie n'a été détectée concernant les images contenues dans votre message, bravo !
+			</div>
+			<div id="divAnomalie" class="masque">
+				<h3>Conseil :</h3>
+				Lorsque vous insérez une image et que vous la réduisez, celle-ci sera malgré tout transmise à sa taille initiale. Ce qui entraîne une consommation inutile à plusieurs niveaux :
+				<ul>
+					<li>bande passante réseau</li>
+					<li>stockage sur les serveurs et le disque-dur de appareil</li>
+					<li>ressources processeur/mémoire pour effectuer le redimensionnement sur chaque poste client, à chaque affichage de chaque image redimensionnée</li>
+				</ul>
+				Pour éviter ces gâchis qui ont un impact sur notre planète, deux méthodes :
+				<ul>
+					<li>redimensionnez vos images dans un outil graphique avant de les insérer (sans en modifier la taille cette fois) dans votre message</li>
+					<li>insérez vos images dans leur taille initiale ; pour chaque image dont vous ajustez les dimensions, finalisez l'opération en effectuant un léger rognage. Ceci aura pour effet de "fixer" définitivement la taille de l'image. Enfin, actualisez le volet de ce présent composant pour vérifier le résultat</li>
+				</ul>
+				
+				Merci pour votre attention et vos actions pour préserver la planète.
+			</div>
+			<p>&nbsp;</p>
+			<div class="footer" title="OutlookImagesInfos v1.3">
+				Outil développé par Damien PONNELLE, freeware offert par Dipisoft.
+			</div>
+		</div>
+	</body>
+</html>
