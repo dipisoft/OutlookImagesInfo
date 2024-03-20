@@ -1,3 +1,5 @@
+Outil développé et proposé gratuitement par Damien PONNELLE, https://www.dipisoft.com/
+
 ## Introduction
 Si comme moi vous vous souciez de la santé de la planète je vous invite à lire ce qui suit.
 
@@ -47,7 +49,6 @@ L’opération s’effectue soit en passant par le client Outlook (qui renvoie v
 - depuis le client Outlook :
 -- menu « Fichier », cliquez sur le bouton « Gérer les compléments » situé en bas de page
 -- une fenêtre Edge s’ouvre sur votre boite-aux-lettres avec, au premier plan, une popup « Compléments pour Outlook »
-
 - depuis le webmail :
 -- cliquez sur l’icone « obtenir des compléments » (![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAAAXNSR0IArs4c6QAAATdJREFUOE9j/PXr138GKgJGcgz89eoh2AlsYvIYToEb+P3+ZYb7vUkMMMUwlYxMzAzCzjEM0kltDIzMrGDhF6t7wLREaAluA8GK/v9lkAgrR1H0+81ThgcTUhkUiuYxsApJkGggFlt/v3vB8KA/hUE6sZXhwYQ0hl8v7qNYyCahyKDasBFuGdzLuLwBM1ChcA51XUhTA4mKZZCXP57exsAhp4USRv9+fWf4dv0EA5emBQMTGydcjpGZhYFP356B38ybgZGFDSEOS4cgA78/vs4gYOaNYuDfL+8ZXm+bzSDqlcrAzCMIl/v/9w/Dm13zGYTswhhE3BOxG4gtbWGLFJhubBFJViwPJwOxZT1oTkFOh3Avr+pkYGBkRsnTBAsHfCUbqLRRLJ7HwKmoixnL1CoSySoP8VkOAM3l+71qKGjnAAAAAElFTkSuQmCC)) présent dans la barre d’outils ou potentiellement dans le menu « autres options » en fonction des dimensions de la fenêtre du navigateur
 - cliquez sur « Mes compléments » dans la marge gauche
@@ -59,3 +60,5 @@ L’opération s’effectue soit en passant par le client Outlook (qui renvoie v
 
 
 Merci pour votre attention et vos actions pour préserver la planète.
+
+damien.
