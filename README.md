@@ -47,16 +47,16 @@ L'outil distingue plusieurs types d'images présentes dans un message :
 ## Installation
 L’opération s’effectue soit en passant par le client Outlook (qui renvoie vers le webmail, in fine), soit directement depuis le webmail.
 - depuis le client Outlook :
--- menu « Fichier », cliquez sur le bouton « Gérer les compléments » situé en bas de page
--- une fenêtre Edge s’ouvre sur votre boite-aux-lettres avec, au premier plan, une popup « Compléments pour Outlook »
+-- menu "Fichier", cliquez sur le bouton "Gérer les compléments" situé en bas de page
+-- une fenêtre Edge s’ouvre sur votre boite-aux-lettres avec, au premier plan, une popup "Compléments pour Outlook"
 - depuis le webmail :
--- cliquez sur l’icone « obtenir des compléments » (![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAAAXNSR0IArs4c6QAAATdJREFUOE9j/PXr138GKgJGcgz89eoh2AlsYvIYToEb+P3+ZYb7vUkMMMUwlYxMzAzCzjEM0kltDIzMrGDhF6t7wLREaAluA8GK/v9lkAgrR1H0+81ThgcTUhkUiuYxsApJkGggFlt/v3vB8KA/hUE6sZXhwYQ0hl8v7qNYyCahyKDasBFuGdzLuLwBM1ChcA51XUhTA4mKZZCXP57exsAhp4USRv9+fWf4dv0EA5emBQMTGydcjpGZhYFP356B38ybgZGFDSEOS4cgA78/vs4gYOaNYuDfL+8ZXm+bzSDqlcrAzCMIl/v/9w/Dm13zGYTswhhE3BOxG4gtbWGLFJhubBFJViwPJwOxZT1oTkFOh3Avr+pkYGBkRsnTBAsHfCUbqLRRLJ7HwKmoixnL1CoSySoP8VkOAM3l+71qKGjnAAAAAElFTkSuQmCC)) présent dans la barre d’outils ou potentiellement dans le menu « autres options » en fonction des dimensions de la fenêtre du navigateur
-- cliquez sur « Mes compléments » dans la marge gauche
-- les éventuels compléments installés (par vous) apparaissent, on trouve aussi le complément « Signaler un hameçonnage », descendez jusqu’en bas pour trouver la section « Compléments personnalisés » et cliquez sur « Ajouter un complément personnalisé » puis sur « Ajouter à [_partir_] d’un fichier… »
-- sélectionnez le fichier « _manifest.xml_ » que vous aurez au préalable téléchargé [ici](https://dipisoft.github.io/OutlookImagesInfos/manifest.xml) et enregistré sur votre poste (sur le bureau par exemple). Une fois l’installation effectuée, ce fichier ne sera plus utile, vous pourrez le supprimer
-- une popup « Avertissement » s’affiche, cliquez sur le bouton « Installer »
-- la popup se ferme, vous pouvez voir qu’un nouvel item apparaît dans la liste : « OutlookImagesInfos »
-- vous pouvez fermer la popup « Compléments pour Outlook »
+-- cliquez sur l’icone "obtenir des compléments" (![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAAAXNSR0IArs4c6QAAATdJREFUOE9j/PXr138GKgJGcgz89eoh2AlsYvIYToEb+P3+ZYb7vUkMMMUwlYxMzAzCzjEM0kltDIzMrGDhF6t7wLREaAluA8GK/v9lkAgrR1H0+81ThgcTUhkUiuYxsApJkGggFlt/v3vB8KA/hUE6sZXhwYQ0hl8v7qNYyCahyKDasBFuGdzLuLwBM1ChcA51XUhTA4mKZZCXP57exsAhp4USRv9+fWf4dv0EA5emBQMTGydcjpGZhYFP356B38ybgZGFDSEOS4cgA78/vs4gYOaNYuDfL+8ZXm+bzSDqlcrAzCMIl/v/9w/Dm13zGYTswhhE3BOxG4gtbWGLFJhubBFJViwPJwOxZT1oTkFOh3Avr+pkYGBkRsnTBAsHfCUbqLRRLJ7HwKmoixnL1CoSySoP8VkOAM3l+71qKGjnAAAAAElFTkSuQmCC)) présent dans la barre d’outils ou potentiellement dans le menu "autres options" en fonction des dimensions de la fenêtre du navigateur
+- cliquez sur "Mes compléments" dans la marge gauche
+- les éventuels compléments installés (par vous) apparaissent, on trouve aussi le complément "Signaler un hameçonnage" (du moins pour mes collègues), descendez jusqu’en bas pour trouver la section "Compléments personnalisés" et cliquez sur "Ajouter un complément personnalisé" puis sur "Ajouter à [_partir_] d’un fichier…"
+- sélectionnez le fichier "_manifest.xml_" que vous aurez au préalable téléchargé [ici](https://dipisoft.github.io/OutlookImagesInfos/manifest.xml) et enregistré sur votre poste (sur le bureau par exemple). Une fois l’installation effectuée, ce fichier ne sera plus utile, vous pourrez le supprimer
+- une popup "Avertissement" s’affiche, cliquez sur le bouton "Installer"
+- la popup se ferme, vous pouvez voir qu’un nouvel item apparaît dans la liste : "OutlookImagesInfos"
+- vous pouvez fermer la popup "Compléments pour Outlook"
 
 
 Merci pour votre attention et vos actions pour préserver la planète.
